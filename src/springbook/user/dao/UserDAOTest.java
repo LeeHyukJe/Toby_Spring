@@ -44,7 +44,7 @@ public class UserDAOTest {
 		this.user2=new User("2","dkfjlesf","2222",Level.SILVER,55,10,"useradmin@leehyukje.org");
 		this.user3=new User("3","dlkfjslkdjf","3333", Level.GOLD,100,40,"useradmin@leehyukje.org");
 
-		dao=new DaoFactory().userDao();
+		//dao=new DaoFactory().userDao();
 	}
 	
 	@Test
